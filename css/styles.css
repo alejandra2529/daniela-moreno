@@ -233,7 +233,7 @@ button.rose-plant .rose-head:hover { filter: drop-shadow(0 0 18px rgba(230, 185,
 .rose-phrase {
   position: absolute;
   left: 50%;
-  top: 46%;
+  top: 47%;
   z-index: 6;
   max-width: min(90%, 520px);
   padding: 10px 22px;
@@ -244,7 +244,7 @@ button.rose-plant .rose-head:hover { filter: drop-shadow(0 0 18px rgba(230, 185,
   text-align: center;
   opacity: 0;
   transform: translate(-50%, 10px);
-  transition: opacity .4s ease, transform .4s ease;
+  transition: opacity .3s ease, transform .3s ease;
   pointer-events: none;
 }
 .rose-phrase.is-visible { opacity: 1; transform: translate(-50%, 0); }
