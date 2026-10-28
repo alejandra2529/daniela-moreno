@@ -1,7 +1,7 @@
 window.PAGE_CONFIG = {
   recipient: 'Andrea',
   message: {
-    title: 'Para ti, Andrea 💜',
+    title: 'Para ti, Daniela Moreno 💜',
     text: 'Quería regalarte estas flores moradas.\n\nGracias por hacer florecer mis días.',
     signature: 'Con mucho cariño 💜'
   },
