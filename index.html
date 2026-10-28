@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta
+      name="description"
+      content="Un jardín nocturno de rosas moradas creado para alguien muy especial."
+    />
+    <meta name="theme-color" content="#090612" />
+    <title>Un Jardín de Rosas Moradas Para Ti 💜</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <script defer src="js/config.js"></script>
+    <script defer src="js/flowers.js"></script>
+    <script defer src="js/butterflies.js"></script>
+    <script defer src="js/effects.js"></script>
+    <script defer src="js/main.js"></script>
+  </head>
+  <body>
+    <main class="experience" id="experience">
+      <div class="sky" aria-hidden="true">
+        <div class="sky__aurora"></div>
+        <div class="sky__stars" id="stars"></div>
+        <div class="moon-haze"></div>
+        <div class="fireflies" id="fireflies"></div>
+      </div>
+
+      <section class="garden" aria-label="Jardín de rosas moradas">
+        <div class="garden__mist" aria-hidden="true"></div>
+        <div class="garden__roses" id="roseGarden"></div>
+        <div class="garden__ground" aria-hidden="true"></div>
+      </section>
+
+      <section class="dedication" id="dedication" aria-live="polite" aria-label="Dedicatoria">
+        <div class="dedication__ornament" aria-hidden="true">✦</div>
+        <h2 class="dedication__title" id="messageTitle"></h2>
+        <p class="dedication__text" id="messageText"></p>
+        <p class="dedication__signature" id="messageSignature"></p>
+      </section>
+
+      <div class="butterfly-stage" id="butterflyStage" aria-hidden="true"></div>
+      <div class="sparkle-layer" id="sparkleLayer" aria-hidden="true"></div>
+
+      <div class="rose-phrase" id="rosePhrase" role="status" aria-live="polite"></div>
+
+      <button
+        class="sound-control"
+        id="soundControl"
+        type="button"
+        aria-label="Silenciar música"
+        aria-pressed="false"
+        hidden
+      >
+        <span class="sound-control__waves" aria-hidden="true"><i></i><i></i><i></i></span>
+      </button>
+
+      <p class="branding" id="branding" hidden></p>
+    </main>
+
+    <audio id="backgroundMusic" preload="none" loop></audio>
+    <noscript>Esta experiencia necesita JavaScript para hacer florecer el jardín.</noscript>
+  </body>
+</html>

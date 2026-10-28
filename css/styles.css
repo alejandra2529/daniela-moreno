@@ -1,0 +1,84 @@
+:root {
+  --night: #090612;
+  --night-soft: #191027;
+  --purple: #a758cf;
+  --purple-light: #e6b9fa;
+  --leaf: #28513d;
+  --text: #fff8ff;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  overflow: hidden;
+  color: var(--text);
+  font-family: system-ui, sans-serif;
+  background: var(--night);
+}
+
+.experience {
+  position: relative;
+  min-height: 100svh;
+  isolation: isolate;
+  overflow: hidden;
+  background:
+    radial-gradient(circle at 50% 12%, rgba(141, 80, 188, .22), transparent 34%),
+    linear-gradient(var(--night-soft), var(--night));
+}
+
+.sky, .garden, #butterflyStage, #sparkleLayer {
+  position: absolute;
+  inset: 0;
+}
+.rose {
+  position: absolute;
+  left: var(--x);
+  bottom: -12px;
+  width: 150px;
+  border: 0;
+  padding: 0;
+  background: transparent;
+  transform: translateX(-50%) scale(var(--scale));
+  transform-origin: 50% 100%;
+  cursor: pointer;
+  animation: grow 1.8s both var(--delay), sway 7s ease-in-out infinite 2s;
+}
+
+.stem { fill: none; stroke: #47765a; stroke-width: 7; }
+.leaf { fill: #28513d; transform: rotate(-24deg); transform-origin: center; }
+.leaf--right { transform: rotate(28deg); }
+.petal { fill: #7d35a8; filter: drop-shadow(0 0 14px rgba(185, 99, 225, .55)); }
+.petal--inner { fill: #d49cf0; }
+
+@keyframes grow {
+  from { opacity: 0; transform: translateX(-50%) scaleY(.05) scaleX(var(--scale)); }
+}
+
+@keyframes sway {
+  50% { rotate: 1.8deg; }
+}
+.butterfly {
+  position: absolute;
+  top: var(--top);
+  left: -50px;
+  animation: fly var(--flight) linear infinite;
+}
+
+.wing {
+  display: inline-block;
+  width: 18px;
+  height: 25px;
+  border-radius: 80% 20%;
+  background: linear-gradient(#e6b9fa, #74319f);
+  animation: flap .32s ease-in-out infinite alternate;
+}
+
+@keyframes fly {
+  to { transform: translateX(calc(100vw + 100px)) translateY(-45px); }
+}
+
+@keyframes flap {
+  to { transform: scaleX(.25); }
+}
