@@ -2,19 +2,19 @@
   'use strict';
 
   const defaults = {
-    recipient: 'Andrea',
+    recipient: 'Daniela ',
     intro: {
       title: 'Tengo unas rosas moradas para ti 💜',
       subtitle: 'Un pequeño jardín para alguien muy especial',
       buttonText: 'Descubrir mi jardín',
     },
     message: {
-      title: 'Para ti, Andrea 💜',
+      title: 'Para ti, Daniela  💜',
       text:
         'Quería regalarte estas rosas moradas para recordarte lo especial que eres.\n\n' +
         'Hay personas que llegan a nuestra vida y hacen florecer hasta los días más grises.\n\n' +
         'Gracias por ser una de esas personas.',
-      signature: 'Con mucho cariño 💜',
+      signature: 'Con mucho cariño A 💜',
     },
     interaction: {
       messages: [
