@@ -126,7 +126,7 @@ body {
 :root { --garden-scale: .75; }
 
 @media (max-width: 600px), (max-height: 720px) {
-  :root { --garden-scale: .55; }
+  :root { --garden-scale: .9; }
 }
 
 .garden { z-index: 0; }
