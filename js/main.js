@@ -101,5 +101,8 @@ function connectRoseMessages(roses, messages, output) {
   });
 }
 
-const garden = createGarden(document.querySelector('#roseGarden'));
+const gardenContainer = document.querySelector('#roseGarden');
+const garden = window.GardenApp && typeof window.GardenApp.createGarden === 'function'
+  ? window.GardenApp.createGarden(gardenContainer)
+  : createGarden(gardenContainer);
 connectRoseMessages(garden, config.interaction.messages, document.querySelector('#rosePhrase'));
