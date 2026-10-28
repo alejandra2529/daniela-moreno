@@ -5,13 +5,13 @@
     recipient: 'Daniela ',
     intro: {
       title: 'Tengo unas rosas moradas para ti 💜',
-      subtitle: 'Un pequeño jardín para alguien muy especial',
+      subtitle: 'Un pequeño jardín para alguien muy especial: eres tú daniela',
       buttonText: 'Descubrir mi jardín',
     },
     message: {
       title: 'Para ti, Daniela  💜',
       text:
-        'Quería regalarte estas rosas moradas para recordarte lo especial que eres.\n\n' +
+        'Quería regalarte estas rosas moradas para recordarte lo especial que eres para mi vida.\n\n' +
         'Hay personas que llegan a nuestra vida y hacen florecer hasta los días más grises.\n\n' +
         'Gracias por ser una de esas personas.',
       signature: 'Con mucho cariño A 💜',
@@ -22,7 +22,11 @@
         'Contigo todo florece',
         'Una rosa para alguien especial',
         'Haces más bonitos mis días',
-        'Mi jardín favorito es donde estás tú',
+        'Mi jardín favorito es donde estás tú'
+        'Tenerte a mi lado es lo mas hermoso'
+        'la suerte de coincidir contigo en esta vida'
+        'te amo, te amo, te amo'
+        'Eres el amor de mi vida',
       ],
     },
     music: {
