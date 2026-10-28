@@ -32,7 +32,7 @@
     
     branding: {
       enabled: false,
-      text: 'Creado cona amor',
+      text: 'Creado con a amor',
     },
   };
 
