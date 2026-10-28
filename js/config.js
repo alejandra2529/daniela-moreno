@@ -29,14 +29,10 @@
         'Eres el amor de mi vida',
       ],
     },
-    music: {
-      enabled: false,
-      src: 'assets/cancion.mp3',
-      volume: 0.5,
-    },
+    
     branding: {
       enabled: false,
-      text: 'Creado con ♡ por unDetalleDev',
+      text: 'Creado cona amor',
     },
   };
 
