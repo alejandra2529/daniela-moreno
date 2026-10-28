@@ -6,9 +6,9 @@
   --leaf: #28513d;
   --text: #fff8ff;
 }
-
+ 
 * { box-sizing: border-box; }
-
+ 
 body {
   min-height: 100vh;
   margin: 0;
@@ -17,7 +17,7 @@ body {
   font-family: system-ui, sans-serif;
   background: var(--night);
 }
-
+ 
 .experience {
   position: relative;
   min-height: 100svh;
@@ -27,7 +27,7 @@ body {
     radial-gradient(circle at 50% 12%, rgba(141, 80, 188, .22), transparent 34%),
     linear-gradient(var(--night-soft), var(--night));
 }
-
+ 
 .sky, .garden, #butterflyStage, #sparkleLayer {
   position: absolute;
   inset: 0;
@@ -45,17 +45,17 @@ body {
   cursor: pointer;
   animation: grow 1.8s both var(--delay), sway 7s ease-in-out infinite 2s;
 }
-
+ 
 .stem { fill: none; stroke: #47765a; stroke-width: 7; }
 .leaf { fill: #28513d; transform: rotate(-24deg); transform-origin: center; }
 .leaf--right { transform: rotate(28deg); }
 .petal { fill: #7d35a8; filter: drop-shadow(0 0 14px rgba(185, 99, 225, .55)); }
 .petal--inner { fill: #d49cf0; }
-
+ 
 @keyframes grow {
   from { opacity: 0; transform: translateX(-50%) scaleY(.05) scaleX(var(--scale)); }
 }
-
+ 
 @keyframes sway {
   50% { rotate: 1.8deg; }
 }
@@ -65,7 +65,7 @@ body {
   left: -50px;
   animation: fly var(--flight) linear infinite;
 }
-
+ 
 .wing {
   display: inline-block;
   width: 18px;
@@ -74,11 +74,46 @@ body {
   background: linear-gradient(#e6b9fa, #74319f);
   animation: flap .32s ease-in-out infinite alternate;
 }
-
+ 
 @keyframes fly {
   to { transform: translateX(calc(100vw + 100px)) translateY(-45px); }
 }
-
+ 
 @keyframes flap {
   to { transform: scaleX(.25); }
+}
+ 
+/* ---------- Dedicatoria (texto centrado con margen) ---------- */
+.dedication {
+  position: absolute;
+  top: 6vh;
+  left: 50%;
+  transform: translateX(-50%);
+  width: min(90%, 640px);
+  padding: 0 16px;
+  text-align: center;
+  z-index: 5;
+  pointer-events: none;
+}
+ 
+.dedication__ornament {
+  margin-bottom: 8px;
+  font-size: 1.4rem;
+  color: var(--purple-light);
+}
+ 
+.dedication__title {
+  margin: 0 0 12px;
+  font-size: clamp(1.6rem, 5vw, 2.6rem);
+}
+ 
+.dedication__text {
+  margin: 0 0 12px;
+  font-size: clamp(1rem, 3.5vw, 1.25rem);
+  line-height: 1.6;
+}
+ 
+.dedication__signature {
+  margin: 0;
+  color: var(--purple-light);
 }
