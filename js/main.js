@@ -12,6 +12,10 @@ window.PAGE_CONFIG = {
       'Haces más bonitos mis días',
       'Una rosa para alguien especial',
       'Mi jardín favorito es donde estás tú'
+      'Tenerte a mi lado es lo mas hermoso'
+      'la suerte de coincidir contigo en esta vida'
+      'te amo, te amo, te amo'
+      'Eres el amor de mi vida'
     ]
   },
  
