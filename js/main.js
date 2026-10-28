@@ -1,5 +1,5 @@
 window.PAGE_CONFIG = {
-  recipient: 'Andrea',
+  recipient: 'DANIELA MORENO',
   message: {
     title: 'Para ti, Daniela Moreno 💜',
     text: 'Quería regalarte estas flores moradas porque te mereces todo lo hermoso que hay en este mundo, jamas deberías merecerte menos, te amo.\n\nGracias por hacer florecer mis días, gracias por todo el amor que me das, soy muy afortunada de tenerte.',
