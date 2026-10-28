@@ -248,3 +248,12 @@ button.rose-plant .rose-head:hover { filter: drop-shadow(0 0 18px rgba(230, 185,
   pointer-events: none;
 }
 .rose-phrase.is-visible { opacity: 1; transform: translate(-50%, 0); }
+
+/* Las capas decorativas no deben bloquear los clics sobre las rosas */
+#butterflyStage,
+#sparkleLayer,
+.sky,
+.garden__mist,
+.garden__ground {
+  pointer-events: none;
+}
