@@ -17,7 +17,7 @@ window.PAGE_CONFIG = {
       'te amo, te amo, te amo',
       'Eres el amor de mi vida',
       'Te vas a casar conmigo',
-      'Eres mi sueño, mi anhelo, mi metas, mis sueños',
+      'Eres mi sueño, mi anhelo, mi meta, mi fortuna',
       'Te amo Daniela Moreno',
     ]
   },
