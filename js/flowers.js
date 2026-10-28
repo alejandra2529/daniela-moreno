@@ -5,17 +5,19 @@
   const app = (window.GardenApp = window.GardenApp || {});
 
   const roseLayouts = [
-    { x: 14, width: 118, height: 342, scale: 0.58, depth: 1, z: -120, delay: 1.35, sway: 7.9, lean: -17 },
-    { x: 27, width: 126, height: 365, scale: 0.66, depth: 2, z: -90, delay: 1.7, sway: 7.2, lean: -12 },
-    { x: 40, width: 120, height: 335, scale: 0.57, depth: 1, z: -130, delay: 1.15, sway: 8.4, lean: -5 },
-    { x: 60, width: 122, height: 345, scale: 0.6, depth: 1, z: -125, delay: 1.55, sway: 8, lean: 5 },
-    { x: 73, width: 126, height: 368, scale: 0.65, depth: 2, z: -95, delay: 1.9, sway: 7.5, lean: 12 },
-    { x: 86, width: 116, height: 338, scale: 0.56, depth: 1, z: -135, delay: 1.25, sway: 8.2, lean: 17 },
-    { x: 22, width: 142, height: 405, scale: 0.79, depth: 3, z: -50, delay: 0.8, sway: 6.7, lean: -15 },
-    { x: 36, width: 158, height: 430, scale: 0.93, depth: 5, z: 0, delay: 0.25, sway: 7.4, lean: -8 },
-    { x: 50, width: 178, height: 465, scale: 1.08, depth: 7, z: 35, delay: 0, sway: 8.1, lean: 0 },
-    { x: 64, width: 158, height: 426, scale: 0.91, depth: 5, z: 0, delay: 0.55, sway: 7.1, lean: 8 },
-    { x: 78, width: 140, height: 398, scale: 0.76, depth: 3, z: -60, delay: 1.05, sway: 6.4, lean: 14 },
+    { x: 20, width: 126, height: 365, scale: 0.72, depth: 2, z: -95, delay: 1.6, sway: 7.2, lean: -12 },
+    { x: 27, width: 120, height: 335, scale: 0.55, depth: 1, z: -130, delay: 1.3, sway: 7.9, lean: -17 },
+    { x: 30, width: 158, height: 430, scale: 1.05, depth: 5, z: 0, delay: 0.35, sway: 7.4, lean: -8 },
+    { x: 37, width: 142, height: 405, scale: 0.85, depth: 3, z: -50, delay: 0.7, sway: 6.7, lean: -9 },
+    { x: 43, width: 122, height: 345, scale: 0.6, depth: 1, z: -125, delay: 1.1, sway: 8.4, lean: -5 },
+    { x: 50, width: 178, height: 465, scale: 1.25, depth: 7, z: 35, delay: 0, sway: 8.1, lean: 0 },
+    { x: 57, width: 122, height: 345, scale: 0.65, depth: 1, z: -120, delay: 1.5, sway: 8, lean: 5 },
+    { x: 63, width: 140, height: 398, scale: 0.88, depth: 3, z: -55, delay: 1.0, sway: 6.4, lean: 9 },
+    { x: 70, width: 158, height: 426, scale: 1.0, depth: 5, z: 0, delay: 0.5, sway: 7.1, lean: 8 },
+    { x: 73, width: 116, height: 338, scale: 0.52, depth: 1, z: -135, delay: 1.25, sway: 8.2, lean: 12 },
+    { x: 80, width: 126, height: 368, scale: 0.78, depth: 2, z: -90, delay: 1.8, sway: 7.5, lean: 14 },
+    { x: 40, width: 118, height: 342, scale: 0.5, depth: 1, z: -140, delay: 1.4, sway: 7.8, lean: -6 },
+    { x: 60, width: 118, height: 342, scale: 0.5, depth: 1, z: -140, delay: 1.9, sway: 8.3, lean: 6 },
   ];
 
   const budLayouts = [
