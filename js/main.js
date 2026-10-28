@@ -2,7 +2,7 @@ window.PAGE_CONFIG = {
   recipient: 'Andrea',
   message: {
     title: 'Para ti, Daniela Moreno 💜',
-    text: 'Quería regalarte estas flores moradas.\n\nGracias por hacer florecer mis días.',
+    text: 'Quería regalarte estas flores moradas porque te mereces todo lo hermoso que hay en este mundo.\n\nGracias por hacer florecer mis días, gracias por hacer todo el amor que me das.',
     signature: 'Con mucho cariño 💜'
   },
   interaction: {
